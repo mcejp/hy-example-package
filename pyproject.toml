@@ -7,7 +7,7 @@ name = "my_package"
 version = "0.0.1"
 
 dependencies = [
-    "hy==0.29.0",
+    "hy @ git+https://github.com/hylang/hy.git@master",
 ]
 
 [tool.setuptools]
